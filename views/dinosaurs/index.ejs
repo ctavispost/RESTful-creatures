@@ -1,7 +1,5 @@
 <ul>
-    <%for (i = 0; i < myDinos.length; i++) { %>
-    <li>
-        <%dinos.name%> is a <%dinos.type%>
-    </li>
+    <% for( let i = 0; i < myDinos.length; i++ ) { %>
+      <li><%= myDinos[i].name %> is a <%= myDinos[i].type %></li>
     <% } %>
-</ul>
+  </ul>
